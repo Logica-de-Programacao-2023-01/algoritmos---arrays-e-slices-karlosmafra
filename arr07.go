@@ -13,6 +13,7 @@ func main() {
 		if lista[i] == x {
 			fmt.Println("O valor", x, "já se encontra na lista")
 			achou = true
+			break
 		}
 	}
 
